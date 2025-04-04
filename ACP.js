@@ -6,7 +6,7 @@ function clickFunction() {
 
   bg1.style.backgroundColor = colors[colorIndex];
 
-  checkIfColorsMatch();
+  ColorMatch();
 }
 
 function clickFunction2() {
@@ -17,10 +17,10 @@ function clickFunction2() {
 
   bg2.style.backgroundColor = colors[colorIndex];
 
-  checkIfColorsMatch();
+  colorMatch();
 }
 
-function checkIfColorsMatch() {
+function colorMatch() {
   let bg1 = document.getElementById("background");
   let bg2 = document.getElementById("backg2");
   let stats = document.getElementById("stats");
