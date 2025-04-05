@@ -25,7 +25,7 @@ function colorMatch() {
   let bg2 = document.getElementById("backg2");
   let stats = document.getElementById("stats");
 
-  if (bg1.style.backgroundColor === bg2.style.backgroundColor) {
+  if (bg1.style.backgroundColor == bg2.style.backgroundColor) {
     stats.innerHTML = "Both Colors are Equal";
   } else {
     stats.innerHTML = "Not Equal";
