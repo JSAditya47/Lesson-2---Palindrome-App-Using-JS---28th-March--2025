@@ -6,7 +6,7 @@ function clickFunction() {
 
   bg1.style.backgroundColor = colors[colorIndex];
 
-  ColorMatch();
+  colorMatch();
 }
 
 function clickFunction2() {
